@@ -1,0 +1,45 @@
+
+html, body, {
+    text-align: center;
+}   
+
+img {
+    border-style: solid;
+}
+ h1 {
+     text-align: center;
+ }
+
+button {
+	color: green;
+	padding: 11px 33px;
+	text-align: center;
+	display: inline-block;
+	font-size: 25px;
+	background-color: khaki;
+	border-style: solid;
+	border-radius: 20px;
+}
+
+button:hover span {
+	color: red;
+   padding-right: 25px;
+}
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.4s;
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
