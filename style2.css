@@ -1,7 +1,4 @@
 
-html, body, {
-    text-align: center;
-}   
 
 img {
     border-style: solid;
@@ -9,6 +6,9 @@ img {
  h1 {
      text-align: center;
  }
+h2 {
+	text-align: center;
+}
 
 button {
 	color: green;
