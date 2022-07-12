@@ -10,6 +10,32 @@ h2 {
 	text-align: center;
 }
 
+ul {
+          list-style-type:none;   
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color:violet;
+          
+         }
+
+         li {
+               float:left;
+            }
+
+             li a {
+                display: flex;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration:solid;
+                font-weight: 1000;
+             }
+
+             .active {
+                background-color:blueviolet;
+             }
+
 button {
 	color: green;
 	padding: 11px 33px;
